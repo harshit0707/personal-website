@@ -4,7 +4,7 @@ import { defineNuxtConfig } from 'nuxt/config';
 export default defineNuxtConfig({
     ssr: true,
     devtools: { enabled: true },
-    modules: ['@nuxt/content', '@nuxtjs/i18n'],
+    modules: ['@nuxt/content', '@nuxtjs/i18n', '@nuxt/ui'],
     routeRules: {
         '/': { prerender: true },
     },

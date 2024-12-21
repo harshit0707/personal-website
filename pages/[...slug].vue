@@ -1,5 +1,5 @@
 <template>
-  <main>
-    <ContentDoc />
-  </main>
+    <main>
+        <ContentDoc path="/page-not-found" />
+    </main>
 </template>
